@@ -5,21 +5,33 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/nav_linux"
+            android:icon="@drawable/linux"
+            android:title="Linux" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nav_git"
+            android:icon="@drawable/git"
+            android:title="Git" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/nav_chef"
+            android:icon="@drawable/chef"
+            android:title="Chef" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/nav_jenkins"
+            android:icon="@drawable/jenkins"
+            android:title="Jenkins" />
+        <item
+            android:id="@+id/nav_docker"
+            android:icon="@drawable/docker"
+            android:title="Docker" />
+        <item
+            android:id="@+id/nav_ansible"
+            android:icon="@drawable/ansible"
+            android:title="Ansible" />
+        <item
+            android:id="@+id/nav_aws"
+            android:icon="@drawable/aws"
+            android:title="Aws" />
     </group>
 
     <item android:title="Communicate">
