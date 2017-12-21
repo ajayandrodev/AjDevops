@@ -1,49 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_linux"
+            android:alphabeticModifiers="SYM"
             android:icon="@drawable/linux"
-            android:title="Linux" />
+            android:iconTint="@android:color/transparent"
+
+
+            android:title="Linux"
+            app:itemIconTint="@android:color/black" />
         <item
             android:id="@+id/nav_git"
+            android:alphabeticModifiers="SYM"
             android:icon="@drawable/git"
-            android:title="Git" />
+            android:iconTint="@android:color/transparent"
+
+            android:title="Git"
+
+            app:itemIconTint="@android:color/black" />
         <item
             android:id="@+id/nav_chef"
+            android:alphabeticModifiers="SYM"
             android:icon="@drawable/chef"
-            android:title="Chef" />
+            android:iconTint="@android:color/transparent"
+
+            android:title="Chef"
+
+            app:itemIconTint="@android:color/black" />
         <item
             android:id="@+id/nav_jenkins"
+            android:alphabeticModifiers="SYM"
             android:icon="@drawable/jenkins"
-            android:title="Jenkins" />
+
+            android:iconTint="@android:color/transparent"
+
+            android:title="Jenkins"
+
+            app:itemIconTint="@android:color/black" />
         <item
             android:id="@+id/nav_docker"
+            android:alphabeticModifiers="SYM"
             android:icon="@drawable/docker"
-            android:title="Docker" />
+            android:iconTint="@android:color/transparent"
+
+
+            android:title="Docker"
+
+            app:itemIconTint="@android:color/black" />
         <item
             android:id="@+id/nav_ansible"
-            android:icon="@drawable/ansib"
-            android:title="Ansible" />
+            android:alphabeticModifiers="SYM"
+            android:icon="@drawable/ansible"
+
+            android:iconTint="@android:color/transparent"
+            android:title="Ansible"
+            app:itemIconTint="@android:color/black" />
         <item
             android:id="@+id/nav_aws"
+            android:alphabeticModifiers="SYM"
             android:icon="@drawable/cloud"
-            android:title="Aws" />
+            android:iconTint="@android:color/transparent"
+
+
+            android:title="Aws"
+            app:itemIconTint="@android:color/black" />
     </group>
 
     <item android:title="Communicate">
         <menu>
             <item
                 android:id="@+id/nav_share"
+                android:alphabeticModifiers="SYM"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:iconTint="@android:color/transparent"
+
+                android:title="Share"
+                app:itemIconTint="@android:color/black" />
             <item
                 android:id="@+id/nav_send"
+                android:alphabeticModifiers="SYM"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+
+                android:iconTint="@android:color/transparent"
+                android:title="Send"
+                app:itemIconTint="@android:color/black" />
         </menu>
     </item>
 
