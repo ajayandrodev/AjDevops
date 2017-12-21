@@ -26,11 +26,11 @@
             android:title="Docker" />
         <item
             android:id="@+id/nav_ansible"
-            android:icon="@drawable/ansible"
+            android:icon="@drawable/ansib"
             android:title="Ansible" />
         <item
             android:id="@+id/nav_aws"
-            android:icon="@drawable/aws"
+            android:icon="@drawable/cloud"
             android:title="Aws" />
     </group>
 
