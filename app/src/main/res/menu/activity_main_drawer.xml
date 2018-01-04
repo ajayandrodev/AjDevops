@@ -7,6 +7,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_linux"
+<<<<<<< HEAD
             android:alphabeticModifiers="SYM"
             android:icon="@drawable/linux"
             android:iconTint="@android:color/transparent"
@@ -69,6 +70,30 @@
 
             android:title="Aws"
             app:itemIconTint="@android:color/black" />
+=======
+            android:icon="@drawable/ic_menu_camera"
+            android:title="linux" />
+        <item
+            android:id="@+id/nav_git"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="git" />
+        <item
+            android:id="@+id/nav_chef"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="chef" />
+        <item
+            android:id="@+id/nav_jenkins"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="jenkins" />
+        <item
+            android:id="@+id/nav_docker"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="docker" />
+        <item
+            android:id="@+id/nav_ansible"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="ansible" />
+>>>>>>> master
     </group>
 
     <item android:title="Communicate">

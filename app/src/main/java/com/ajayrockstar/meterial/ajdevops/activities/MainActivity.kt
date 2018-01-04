@@ -8,7 +8,10 @@ import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+<<<<<<< HEAD:app/src/main/java/com/ajayrockstar/meterial/ajdevops/activities/MainActivity.kt
 import android.widget.Toast
+=======
+>>>>>>> master:app/src/main/java/com/ajayrockstar/meterial/ajdevops/activities/MainActivity.kt
 import com.ajayrockstar.meterial.ajdevops.R
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
@@ -61,6 +64,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         // Handle navigation view item clicks here.
         when (item.itemId) {
             R.id.nav_linux -> {
+<<<<<<< HEAD:app/src/main/java/com/ajayrockstar/meterial/ajdevops/activities/MainActivity.kt
                 showToast("its linux");
 
 
@@ -87,6 +91,24 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             }
             R.id.nav_aws -> {
                 showToast("its aws");
+=======
+                // Handle the camera action
+
+            }
+            R.id.nav_git -> {
+
+            }
+            R.id.nav_chef -> {
+
+            }
+            R.id.nav_jenkins -> {
+
+            }
+            R.id.nav_docker -> {
+
+            }
+            R.id.nav_ansible -> {
+>>>>>>> master:app/src/main/java/com/ajayrockstar/meterial/ajdevops/activities/MainActivity.kt
 
             }
             R.id.nav_share -> {

@@ -1,5 +1,6 @@
 package com.ajayrockstar.meterial.ajdevops.fragments
 
+<<<<<<< HEAD
 import android.content.Context
 import android.net.Uri
 import android.os.Bundle
@@ -100,3 +101,10 @@ class GitFragment : Fragment() {
         }
     }
 }// Required empty public constructor
+=======
+/**
+ * Created by admin on 12/20/2017.
+ */
+class GitFragment {
+}
+>>>>>>> master
