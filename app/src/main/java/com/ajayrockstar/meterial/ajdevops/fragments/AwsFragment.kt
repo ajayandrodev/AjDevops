@@ -13,12 +13,12 @@ import com.ajayrockstar.meterial.ajdevops.R
 /**
  * A simple [Fragment] subclass.
  * Activities that contain this fragment must implement the
- * [AnsibleFragment.OnFragmentInteractionListener] interface
+ * [AwsFragment.OnFragmentInteractionListener] interface
  * to handle interaction events.
- * Use the [AnsibleFragment.newInstance] factory method to
+ * Use the [AwsFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class AnsibleFragment : Fragment() {
+class AwsFragment : Fragment() {
 
     // TODO: Rename and change types of parameters
     private var mParam1: String? = null
@@ -37,7 +37,7 @@ class AnsibleFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater!!.inflate(R.layout.fragment_ansible, container, false)
+        return inflater!!.inflate(R.layout.fragment_aws, container, false)
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -87,11 +87,11 @@ class AnsibleFragment : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment AnsibleFragment.
+         * @return A new instance of fragment AwsFragment.
          */
         // TODO: Rename and change types and number of parameters
-        fun newInstance(param1: String, param2: String): AnsibleFragment {
-            val fragment = AnsibleFragment()
+        fun newInstance(param1: String, param2: String): AwsFragment {
+            val fragment = AwsFragment()
             val args = Bundle()
             args.putString(ARG_PARAM1, param1)
             args.putString(ARG_PARAM2, param2)

@@ -8,6 +8,7 @@ import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
 import com.ajayrockstar.meterial.ajdevops.R
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
@@ -60,33 +61,53 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         // Handle navigation view item clicks here.
         when (item.itemId) {
             R.id.nav_linux -> {
-                // Handle the camera action
+
+                showToast("its linux");
+
 
             }
             R.id.nav_git -> {
+                showToast("its git");
 
             }
             R.id.nav_chef -> {
+                showToast("its chef");
 
             }
             R.id.nav_jenkins -> {
+                showToast("its jenkins");
 
             }
             R.id.nav_docker -> {
+                showToast("its docker");
 
             }
             R.id.nav_ansible -> {
+                showToast("its ansible");
 
             }
+            R.id.nav_aws -> {
+                showToast("its aws");
+                // Handle the camera action
+
+            }
+
             R.id.nav_share -> {
+                showToast("its share");
 
             }
             R.id.nav_send -> {
+                showToast("its send");
 
             }
         }
 
         drawer_layout.closeDrawer(GravityCompat.START)
         return true
+    }
+
+    private fun showToast(msg: String) {
+        Toast.makeText(this@MainActivity, "" + msg, Toast.LENGTH_SHORT).show();
+
     }
 }
